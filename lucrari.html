@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>My first projects</title>
+    <link href="lucrari.css"
+  rel="stylesheet">
+  </head>
+  <body>
+    <input type="text" placeholder="Search">
+    <h1 style="color:rgb(6, 84, 148); opacity: 50%">My Projects</h1>
+    <p id="intro" style="font-style: italic;">Hello! These are my projects.</p>
+    <ol>
+      Projects list: 
+      <div>
+      <li class="grey-element">C++</li>
+      <img style="-webkit-user-select: none;margin: auto;" src="https://engineering.fb.com/wp-content/uploads/2015/06/1522635669452_11.jpg">
+      <li class="grey-element">Algorithms</li>
+      <li class="grey-element">My <strong>first</strong> webpage:
+        <p>Range: </p>
+        <input type="range">
+        <br>
+        <p>Checkbox: </p>
+        <input type="checkbox">
+        <br>
+        <p>Date: </p>
+        <input type="date">
+        <br>
+        <p>Color: </p>
+        <input type="color">
+        <br>
+      </li>
+      </div>
+    </ol>
+    <br><textarea id="rateMyProjects" placeholder="Rate my projects" rows="3" cols="18"></textarea>
+    <br>
+    <button onclick="rateProjects()">Send rating</button>
+    <h2 id="ratingProjects"></h2>
+    <footer>
+      <a href="index.html">My portfolio</a>
+    </footer>
+    <script src="lucrari.js"></script>
+  </body>
+</html>
